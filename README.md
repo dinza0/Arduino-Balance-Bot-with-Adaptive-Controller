@@ -267,23 +267,4 @@ Recommended payload range:
 - typical demonstration target: 50 g
 - upper test range: 75 g
 
-## Repository Contents
-
-A typical repository layout is:
-
-```text
-.
-├── README.md
-├── assets/
-│   └── balance_bot_cad.png
-├── Arduino/
-│   └── SelfBalancingBot_AutonomousAdaptive_PlugAndPlay.ino
-├── MATLAB/
-│   └── arduino_adaptive_plotter_white_deg.m
-└── docs/
-    └── report_figures/
-```
-
-## Notes
-
 This project was developed as a hardware adaptive-control demonstration. The adaptive controller should be interpreted as a bounded robustness layer around a working fixed inverse-dynamics controller, not as a replacement for calibration, mechanical balance, or actuator capability.
